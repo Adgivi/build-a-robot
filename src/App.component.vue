@@ -1,16 +1,18 @@
 <template>
   <main>
-    <RobotPage />
+    <RobotBuilder />
   </main>
 </template>
 
 <script>
-import RobotPage from "./components/RobotPage.vue";
+// import RobotPage from "@/pages/Robot.page.vue";
+import RobotBuilder from "@/components/RobotBuilder.component";
 
 export default {
   name: "App",
   components: {
-    RobotPage
+    // RobotPage,
+    RobotBuilder
   }
 };
 </script>
